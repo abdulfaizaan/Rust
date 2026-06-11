@@ -18,7 +18,7 @@ Welcome to my space for tracking my progress as I dive into the world of **Rust*
 | Milestone | Status | Description | Completed Date |
 | :--- | :---: | :--- | :---: |
 | **01. The Basics** | ✅ | Variables, data types, control flow, and functions. | *June 2026* |
-| **02. The Core (The Meat & Potatoes)** | 🦀 | Mastered **Ownership, Borrowing, and Mutability**. | *June 11, 2026* |
+| **02. The Core** | 🦀 | Mastered **Ownership, Borrowing, and Mutability**. | *June 11, 2026* |
 | **03. Advanced Concepts** | ⏳ | Lifetimes, Traits, Generics, and Smart Pointers. | *Up Next* |
 | **04. Concurrency** | ⏳ | Fearless concurrency, threads, and message passing. | *Planned* |
 
@@ -30,19 +30,19 @@ Here are the projects I am building (and optimizing) to cement my understanding 
 
 ### 1. 🧮 CLI Calculator
 *   **Focus:** Pattern matching, robust error handling, and standard I/O parsing.
-*   **Status:** `Completed / Optimizing`
+*   **Status:** `Completed `
 
 ### 2. 🪨 Rock, Paper, Scissors App
-*   **Focus:** Enums, `match` control flow, and building interactive terminal loops.
-*   **Status:** `In Progress`
+*   **Focus:**  `match` control flow, and building interactive terminal loops.
+*   **Status:** `completed`
 
 ### 3. 📝 CLI Todo-List App
 *   **Focus:** Structs, vectors, and basic file I/O to persist data locally.
-*   **Status:** `Planned`
+*   **Status:** `Completed`
 
 ### 4. 💼 Employee Management System
-*   **Focus:** HashMaps, module structures, ownership transfer, and structural data modeling.
-*   **Status:** `Planned`
+*   **Focus:** Structs, vectors, and basic file I/O to persist data locally.
+*   **Status:** `Completed`
 
 ---
 
