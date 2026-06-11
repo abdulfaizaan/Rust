@@ -21,6 +21,8 @@ Welcome to my repository tracking my progress as I learn the **Rust** programmin
 
 **3. CLI Todo-list app** 
 
+**4.Employee Management System**
+
 
 ---
 **Abdul Faizaan**
