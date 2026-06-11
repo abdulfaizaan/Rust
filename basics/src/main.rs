@@ -1,6 +1,6 @@
 use std::io;
 
-fn main() {
+ fn main() {
     loop {
         println!("====== Calculator ======");
 
@@ -32,47 +32,48 @@ fn main() {
             .read_line(&mut operator)
             .expect("Failed");
 
+
         let operator = operator.trim();
-        
-            // if operator == "+" {
-    //     let result = add(number1, number2);
 
-    //     println!(
-    //         "The sum of {} and {} is: {}",
-    //         number1,
-    //         number2,
-    //         result
-    //     );
-    // } else if operator == "-" {
-    //     let result = sub(number1, number2);
+            if operator == "+" {
+        let result = add(number1, number2);
 
-    //     println!(
-    //         "The difference of {} and {} is: {}",
-    //         number1,
-    //         number2,
-    //         result
-    //     );
-    // } else if operator == "*" {
-    //     let result = mul(number1, number2);
+        println!(
+            "The sum of {} and {} is: {}",
+            number1,
+            number2,
+            result
+        );
+    } else if operator == "-" {
+        let result = sub(number1, number2);
 
-    //     println!(
-    //         "The multiplication of {} and {} is: {}",
-    //         number1,
-    //         number2,
-    //         result
-    //     );
-    // } else if operator == "/" {
-    //     let result = div(number1, number2);
+        println!(
+            "The difference of {} and {} is: {}",
+            number1,
+            number2,
+            result
+        );
+    } else if operator == "*" {
+        let result = mul(number1, number2);
 
-    //     println!(
-    //         "The division of {} and {} is: {}",
-    //         number1,
-    //         number2,
-    //         result
-    //     );
-    // } else {
-    //     println!("Invalid Operator");
-    // }
+        println!(
+            "The multiplication of {} and {} is: {}",
+            number1,
+            number2,
+            result
+        );
+    } else if operator == "/" {
+        let result = div(number1, number2);
+
+        println!(
+            "The division of {} and {} is: {}",
+            number1,
+            number2,
+            result
+        );
+    } else {
+        println!("Invalid Operator");
+    }
 
         let result = match operator {
             "+" => add(number1, number2),
@@ -108,7 +109,7 @@ fn main() {
 
 
 
-}
+ }
 
 
 
