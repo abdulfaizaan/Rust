@@ -16,6 +16,7 @@ Welcome to my repository tracking my progress as I learn the **Rust** programmin
 ---
 ## Projects 
 **1. Rock Paper Scissors app**
+
 **2. CLI Todo-list app** 
 
 
