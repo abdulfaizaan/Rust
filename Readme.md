@@ -53,6 +53,10 @@ Here are the projects I am building (and optimizing) to cement my understanding 
 
 ---
 
+```Rust
+
+```
+
 <p align="center">
   Made with ❤️ and 🦀 by <b>Abdul Faizaan</b>
 </p>
